@@ -1,0 +1,81 @@
+
+:root{
+    --main-color : #ec221f;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    color: var(--main-color);
+}
+
+h1{
+    font-size: 45px;
+}
+
+
+.signup .left img{
+    width: 350px;
+}
+
+.signup .rigth form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.signup .rigth form .formItem{
+    margin-bottom: 8px;
+    width: 100%;
+    
+}
+
+.signup .rigth form .formItem input{
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 12px;
+    height: 30px;
+}
+
+.signup .rigth form .bouton{
+    background-color: var(--main-color);
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.signup .rigth form .signOrLog{
+    margin-top: 25px;
+}
+
+.signup .rigth form .signOrLog a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+@media (max-width: 704px){
+    .signup{
+        flex-direction: column;
+    }
+}
